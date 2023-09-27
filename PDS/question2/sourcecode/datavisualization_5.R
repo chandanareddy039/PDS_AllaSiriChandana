@@ -1,0 +1,5 @@
+library(readr)
+StudentsPerformance <- read_csv("C:\\Users\\anjur\\Downloads\\PDS\\question2\\data\\StudentsPerformance.csv")
+View(StudentsPerformance)
+attach(StudentsPerformance)
+hist(`writing score`,col = "yellow")
